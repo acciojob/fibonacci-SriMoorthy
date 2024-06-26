@@ -3,7 +3,7 @@ function fibonacci(num) {
       return 0;
   }
   if (num === 1) {
-      return 1;
+      return 0;
   }
   let a = 0, b = 1, c;
   for (let i = 2; i <= num; i++) {
